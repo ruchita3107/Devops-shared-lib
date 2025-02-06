@@ -1,5 +1,5 @@
-def call(String input){
-  def results = input.toUppercase()
-  echo "Uppercase: ${results}"
-  return results
+def call(String input) {
+  def result = input.toUpperCase()
+  echo "uppercase: ${result}"
+  return result
 }
